@@ -1,5 +1,5 @@
 ## 这是一个 V to C (Delegate)的例子
-	使用小技巧,我在每部操作都加了MARK 可以在上边的这个地方跳转
+	使用小技巧,我在每部操作都加了MARK 可以在xcode上边的这个地方跳转
 ![alt text](./pic1.png "Title")
 
 Delegate一共5步

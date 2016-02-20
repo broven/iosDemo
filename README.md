@@ -1,9 +1,12 @@
-##2.19
-###上午
-- 看ios官方教程的Persist Data
-- 整理阅读资源
+###DelegateDemo
+一个代理的练习
 
 
-###下午+晚上
-- 做了一个DelegateDemo
-- 总结CTC和VTC
+###iOS-StackViewStarterProject-master
+对stackView的练习,加入了一个飞入特效
+
+###getData
+获取网络数据
+
+###TextField Delegate
+获取TextField中的输入内容

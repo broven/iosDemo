@@ -1,6 +1,6 @@
 ###[ActionSheet&Alert](./ActionSheet&Alert)
 ActionSheet和alert的练习
-![image](./ActionSheet&Alert/img.png =300x)
+
 
 ###[Start-Dev-iOS-Apps-09](./Start-Dev-iOS-Apps-09)
 ios官方文档中的DEMO最终版 

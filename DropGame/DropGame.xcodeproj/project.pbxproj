@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CBB358261C7AA34D00A191A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB358251C7AA34D00A191A5 /* AppDelegate.swift */; };
+		CBB3582B1C7AA34D00A191A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBB358291C7AA34D00A191A5 /* Main.storyboard */; };
+		CBB3582D1C7AA34D00A191A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBB3582C1C7AA34D00A191A5 /* Assets.xcassets */; };
+		CBB358301C7AA34D00A191A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBB3582E1C7AA34D00A191A5 /* LaunchScreen.storyboard */; };
+		CBB3583B1C7AA34D00A191A5 /* DropGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB3583A1C7AA34D00A191A5 /* DropGameTests.swift */; };
+		CBB358461C7AA34D00A191A5 /* DropGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB358451C7AA34D00A191A5 /* DropGameUITests.swift */; };
+		CBB358551C7AA38E00A191A5 /* gameViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB358541C7AA38E00A191A5 /* gameViewViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CBB358371C7AA34D00A191A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CBB3581A1C7AA34D00A191A5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CBB358211C7AA34D00A191A5;
+			remoteInfo = DropGame;
+		};
+		CBB358421C7AA34D00A191A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CBB3581A1C7AA34D00A191A5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CBB358211C7AA34D00A191A5;
+			remoteInfo = DropGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CBB358221C7AA34D00A191A5 /* DropGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DropGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBB358251C7AA34D00A191A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = DropGame/AppDelegate.swift; sourceTree = "<group>"; };
+		CBB3582A1C7AA34D00A191A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CBB3582C1C7AA34D00A191A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = DropGame/Assets.xcassets; sourceTree = "<group>"; };
+		CBB3582F1C7AA34D00A191A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CBB358311C7AA34D00A191A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = DropGame/Info.plist; sourceTree = "<group>"; };
+		CBB358361C7AA34D00A191A5 /* DropGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DropGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBB3583A1C7AA34D00A191A5 /* DropGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropGameTests.swift; sourceTree = "<group>"; };
+		CBB3583C1C7AA34D00A191A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBB358411C7AA34D00A191A5 /* DropGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DropGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBB358451C7AA34D00A191A5 /* DropGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropGameUITests.swift; sourceTree = "<group>"; };
+		CBB358471C7AA34D00A191A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBB358541C7AA38E00A191A5 /* gameViewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = gameViewViewController.swift; path = ../gameViewViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CBB3581F1C7AA34D00A191A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBB358331C7AA34D00A191A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBB3583E1C7AA34D00A191A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CBB358191C7AA34D00A191A5 = {
+			isa = PBXGroup;
+			children = (
+				CBB358531C7AA35D00A191A5 /* File */,
+				CBB358241C7AA34D00A191A5 /* DropGame */,
+				CBB358391C7AA34D00A191A5 /* DropGameTests */,
+				CBB358441C7AA34D00A191A5 /* DropGameUITests */,
+				CBB358231C7AA34D00A191A5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CBB358231C7AA34D00A191A5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CBB358221C7AA34D00A191A5 /* DropGame.app */,
+				CBB358361C7AA34D00A191A5 /* DropGameTests.xctest */,
+				CBB358411C7AA34D00A191A5 /* DropGameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CBB358241C7AA34D00A191A5 /* DropGame */ = {
+			isa = PBXGroup;
+			children = (
+				CBB358541C7AA38E00A191A5 /* gameViewViewController.swift */,
+				CBB358291C7AA34D00A191A5 /* Main.storyboard */,
+			);
+			path = DropGame;
+			sourceTree = "<group>";
+		};
+		CBB358391C7AA34D00A191A5 /* DropGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3583A1C7AA34D00A191A5 /* DropGameTests.swift */,
+				CBB3583C1C7AA34D00A191A5 /* Info.plist */,
+			);
+			path = DropGameTests;
+			sourceTree = "<group>";
+		};
+		CBB358441C7AA34D00A191A5 /* DropGameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CBB358451C7AA34D00A191A5 /* DropGameUITests.swift */,
+				CBB358471C7AA34D00A191A5 /* Info.plist */,
+			);
+			path = DropGameUITests;
+			sourceTree = "<group>";
+		};
+		CBB358531C7AA35D00A191A5 /* File */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3582C1C7AA34D00A191A5 /* Assets.xcassets */,
+				CBB3582E1C7AA34D00A191A5 /* LaunchScreen.storyboard */,
+				CBB358311C7AA34D00A191A5 /* Info.plist */,
+				CBB358251C7AA34D00A191A5 /* AppDelegate.swift */,
+			);
+			name = File;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CBB358211C7AA34D00A191A5 /* DropGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBB3584A1C7AA34D00A191A5 /* Build configuration list for PBXNativeTarget "DropGame" */;
+			buildPhases = (
+				CBB3581E1C7AA34D00A191A5 /* Sources */,
+				CBB3581F1C7AA34D00A191A5 /* Frameworks */,
+				CBB358201C7AA34D00A191A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DropGame;
+			productName = DropGame;
+			productReference = CBB358221C7AA34D00A191A5 /* DropGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CBB358351C7AA34D00A191A5 /* DropGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBB3584D1C7AA34D00A191A5 /* Build configuration list for PBXNativeTarget "DropGameTests" */;
+			buildPhases = (
+				CBB358321C7AA34D00A191A5 /* Sources */,
+				CBB358331C7AA34D00A191A5 /* Frameworks */,
+				CBB358341C7AA34D00A191A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CBB358381C7AA34D00A191A5 /* PBXTargetDependency */,
+			);
+			name = DropGameTests;
+			productName = DropGameTests;
+			productReference = CBB358361C7AA34D00A191A5 /* DropGameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CBB358401C7AA34D00A191A5 /* DropGameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBB358501C7AA34D00A191A5 /* Build configuration list for PBXNativeTarget "DropGameUITests" */;
+			buildPhases = (
+				CBB3583D1C7AA34D00A191A5 /* Sources */,
+				CBB3583E1C7AA34D00A191A5 /* Frameworks */,
+				CBB3583F1C7AA34D00A191A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CBB358431C7AA34D00A191A5 /* PBXTargetDependency */,
+			);
+			name = DropGameUITests;
+			productName = DropGameUITests;
+			productReference = CBB358411C7AA34D00A191A5 /* DropGameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CBB3581A1C7AA34D00A191A5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Broven;
+				TargetAttributes = {
+					CBB358211C7AA34D00A191A5 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 8WX9CXSLX2;
+					};
+					CBB358351C7AA34D00A191A5 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 8WX9CXSLX2;
+						TestTargetID = CBB358211C7AA34D00A191A5;
+					};
+					CBB358401C7AA34D00A191A5 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 8WX9CXSLX2;
+						TestTargetID = CBB358211C7AA34D00A191A5;
+					};
+				};
+			};
+			buildConfigurationList = CBB3581D1C7AA34D00A191A5 /* Build configuration list for PBXProject "DropGame" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CBB358191C7AA34D00A191A5;
+			productRefGroup = CBB358231C7AA34D00A191A5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CBB358211C7AA34D00A191A5 /* DropGame */,
+				CBB358351C7AA34D00A191A5 /* DropGameTests */,
+				CBB358401C7AA34D00A191A5 /* DropGameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CBB358201C7AA34D00A191A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBB358301C7AA34D00A191A5 /* LaunchScreen.storyboard in Resources */,
+				CBB3582D1C7AA34D00A191A5 /* Assets.xcassets in Resources */,
+				CBB3582B1C7AA34D00A191A5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBB358341C7AA34D00A191A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBB3583F1C7AA34D00A191A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CBB3581E1C7AA34D00A191A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBB358261C7AA34D00A191A5 /* AppDelegate.swift in Sources */,
+				CBB358551C7AA38E00A191A5 /* gameViewViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBB358321C7AA34D00A191A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBB3583B1C7AA34D00A191A5 /* DropGameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBB3583D1C7AA34D00A191A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBB358461C7AA34D00A191A5 /* DropGameUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CBB358381C7AA34D00A191A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CBB358211C7AA34D00A191A5 /* DropGame */;
+			targetProxy = CBB358371C7AA34D00A191A5 /* PBXContainerItemProxy */;
+		};
+		CBB358431C7AA34D00A191A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CBB358211C7AA34D00A191A5 /* DropGame */;
+			targetProxy = CBB358421C7AA34D00A191A5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CBB358291C7AA34D00A191A5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBB3582A1C7AA34D00A191A5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CBB3582E1C7AA34D00A191A5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBB3582F1C7AA34D00A191A5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			path = DropGame;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CBB358481C7AA34D00A191A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CBB358491C7AA34D00A191A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CBB3584B1C7AA34D00A191A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DropGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iss.broven.DropGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CBB3584C1C7AA34D00A191A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DropGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iss.broven.DropGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CBB3584E1C7AA34D00A191A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DropGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iss.broven.DropGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DropGame.app/DropGame";
+			};
+			name = Debug;
+		};
+		CBB3584F1C7AA34D00A191A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DropGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iss.broven.DropGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DropGame.app/DropGame";
+			};
+			name = Release;
+		};
+		CBB358511C7AA34D00A191A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DropGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iss.broven.DropGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DropGame;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		CBB358521C7AA34D00A191A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DropGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iss.broven.DropGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DropGame;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CBB3581D1C7AA34D00A191A5 /* Build configuration list for PBXProject "DropGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBB358481C7AA34D00A191A5 /* Debug */,
+				CBB358491C7AA34D00A191A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBB3584A1C7AA34D00A191A5 /* Build configuration list for PBXNativeTarget "DropGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBB3584B1C7AA34D00A191A5 /* Debug */,
+				CBB3584C1C7AA34D00A191A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CBB3584D1C7AA34D00A191A5 /* Build configuration list for PBXNativeTarget "DropGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBB3584E1C7AA34D00A191A5 /* Debug */,
+				CBB3584F1C7AA34D00A191A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CBB358501C7AA34D00A191A5 /* Build configuration list for PBXNativeTarget "DropGameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBB358511C7AA34D00A191A5 /* Debug */,
+				CBB358521C7AA34D00A191A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CBB3581A1C7AA34D00A191A5 /* Project object */;
+}

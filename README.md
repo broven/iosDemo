@@ -1,3 +1,7 @@
+###[DropGame](./DropGame)
+dynamicAnimator
+物理效果动画
+
 ###[ActionSheet&Alert](./ActionSheet&Alert)
 ActionSheet和alert的练习
 

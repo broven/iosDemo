@@ -14,6 +14,7 @@
 		CBB3583B1C7AA34D00A191A5 /* DropGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB3583A1C7AA34D00A191A5 /* DropGameTests.swift */; };
 		CBB358461C7AA34D00A191A5 /* DropGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB358451C7AA34D00A191A5 /* DropGameUITests.swift */; };
 		CBB358551C7AA38E00A191A5 /* gameViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB358541C7AA38E00A191A5 /* gameViewViewController.swift */; };
+		CBB358591C7C28AA00A191A5 /* DropitBehavior.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB358581C7C28AA00A191A5 /* DropitBehavior.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		CBB358451C7AA34D00A191A5 /* DropGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropGameUITests.swift; sourceTree = "<group>"; };
 		CBB358471C7AA34D00A191A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CBB358541C7AA38E00A191A5 /* gameViewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = gameViewViewController.swift; path = ../gameViewViewController.swift; sourceTree = "<group>"; };
+		CBB358581C7C28AA00A191A5 /* DropitBehavior.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DropitBehavior.swift; path = ../DropitBehavior.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 		CBB358241C7AA34D00A191A5 /* DropGame */ = {
 			isa = PBXGroup;
 			children = (
+				CBB358581C7C28AA00A191A5 /* DropitBehavior.swift */,
 				CBB358541C7AA38E00A191A5 /* gameViewViewController.swift */,
 				CBB358291C7AA34D00A191A5 /* Main.storyboard */,
 			);
@@ -269,6 +272,7 @@
 			files = (
 				CBB358261C7AA34D00A191A5 /* AppDelegate.swift in Sources */,
 				CBB358551C7AA38E00A191A5 /* gameViewViewController.swift in Sources */,
+				CBB358591C7C28AA00A191A5 /* DropitBehavior.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -496,6 +500,7 @@
 				CBB3584C1C7AA34D00A191A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CBB3584D1C7AA34D00A191A5 /* Build configuration list for PBXNativeTarget "DropGameTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +509,7 @@
 				CBB3584F1C7AA34D00A191A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CBB358501C7AA34D00A191A5 /* Build configuration list for PBXNativeTarget "DropGameUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +518,7 @@
 				CBB358521C7AA34D00A191A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

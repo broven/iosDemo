@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "623863B3CBC26A07986728FF921556C990AE4F67",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "623863B3CBC26A07986728FF921556C990AE4F67" : 0,
+    "0D201B066E6DA2C7B3D2A04D15CDF5DFB3A1B4E5" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "715E8327-CF6C-4EA0-847E-C5EF5BEA7F5D",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "623863B3CBC26A07986728FF921556C990AE4F67" : "iosDemo\/",
+    "0D201B066E6DA2C7B3D2A04D15CDF5DFB3A1B4E5" : "Dropit\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "DropGame",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "DropGame\/DropGame.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/MarcoMontaltoMonella\/Dropit.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "0D201B066E6DA2C7B3D2A04D15CDF5DFB3A1B4E5"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/broven\/iosDemo.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "623863B3CBC26A07986728FF921556C990AE4F67"
+    }
+  ]
+}

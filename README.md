@@ -1,6 +1,9 @@
+
+
 ###[DropGame](./DropGame)
 dynamicAnimator
-物理效果动画
+![image](./DropGame/dropGame.gif)
+
 
 ###[ActionSheet&Alert](./ActionSheet&Alert)
 ActionSheet和alert的练习
@@ -12,6 +15,7 @@ ios官方文档中的DEMO最终版
 有关代理的练习
 
 ###[iOS-StackViewStarterProject-master](./iOS-StackViewStarterProject-master)
+
 对stackView的练习,加入了一个飞入特效
 
 ###[getData](./getData)

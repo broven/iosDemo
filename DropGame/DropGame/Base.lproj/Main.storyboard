@@ -22,7 +22,8 @@
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <gestureRecognizers/>
                                 <connections>
-                                    <outletCollection property="gestureRecognizers" destination="rVp-eW-g0w" appends="YES" id="FjF-LH-BGB"/>
+                                    <outletCollection property="gestureRecognizers" destination="RBH-v9-4af" appends="YES" id="zly-x3-9rA"/>
+                                    <outletCollection property="gestureRecognizers" destination="XWf-mU-Zgw" appends="YES" id="DY7-XE-Nag"/>
                                 </connections>
                             </view>
                         </subviews>
@@ -36,15 +37,19 @@
                     </view>
                     <connections>
                         <outlet property="gameView" destination="UDY-Tw-CC0" id="rUa-sU-1MC"/>
-                        <outlet property="touch" destination="rVp-eW-g0w" id="nQd-UE-haV"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
-                <tapGestureRecognizer id="rVp-eW-g0w">
+                <tapGestureRecognizer id="RBH-v9-4af">
                     <connections>
-                        <action selector="drop:" destination="BYZ-38-t0r" id="Z8m-ia-R7C"/>
+                        <action selector="touch:" destination="BYZ-38-t0r" id="X8i-4x-Dd2"/>
                     </connections>
                 </tapGestureRecognizer>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="XWf-mU-Zgw">
+                    <connections>
+                        <action selector="grabDrop:" destination="BYZ-38-t0r" id="art-PN-Sqh"/>
+                    </connections>
+                </panGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="361" y="286"/>
         </scene>

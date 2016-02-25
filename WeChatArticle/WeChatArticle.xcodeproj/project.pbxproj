@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2B73015E4D431F0B28EC2163 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29923CD0C971FDCA22996637 /* Pods.framework */; };
-		CB04A10F1C7DEC150014244F /* dataBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB04A10E1C7DEC150014244F /* dataBase.swift */; };
+		CB04A10F1C7DEC150014244F /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB04A10E1C7DEC150014244F /* Article.swift */; };
 		CB66BD901C7D90720094EA4B /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB66BD8F1C7D90720094EA4B /* MainTableViewController.swift */; };
 		CB66BD921C7D989C0094EA4B /* MainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB66BD911C7D989C0094EA4B /* MainTableViewCell.swift */; };
 		CBCDE5401C7D488C00DFD12A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBCDE53F1C7D488C00DFD12A /* AppDelegate.swift */; };
@@ -44,7 +44,7 @@
 		29923CD0C971FDCA22996637 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4948F97499E0D65EE274142A /* Pods_WeChatArticle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WeChatArticle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5995DEA5B20706EDEA1B6370 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
-		CB04A10E1C7DEC150014244F /* dataBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = dataBase.swift; sourceTree = "<group>"; };
+		CB04A10E1C7DEC150014244F /* Article.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
 		CB66BD8F1C7D90720094EA4B /* MainTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
 		CB66BD911C7D989C0094EA4B /* MainTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTableViewCell.swift; sourceTree = "<group>"; };
 		CBCDE53C1C7D488C00DFD12A /* WeChatArticle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeChatArticle.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -142,7 +142,7 @@
 				CB66BD911C7D989C0094EA4B /* MainTableViewCell.swift */,
 				CB66BD8F1C7D90720094EA4B /* MainTableViewController.swift */,
 				CBCDE5711C7D49F600DFD12A /* ArticleData.swift */,
-				CB04A10E1C7DEC150014244F /* dataBase.swift */,
+				CB04A10E1C7DEC150014244F /* Article.swift */,
 				CBCDE5461C7D488C00DFD12A /* Assets.xcassets */,
 				CBCDE5481C7D488C00DFD12A /* LaunchScreen.storyboard */,
 				CBCDE54B1C7D488C00DFD12A /* Info.plist */,
@@ -354,7 +354,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB04A10F1C7DEC150014244F /* dataBase.swift in Sources */,
+				CB04A10F1C7DEC150014244F /* Article.swift in Sources */,
 				CB66BD901C7D90720094EA4B /* MainTableViewController.swift in Sources */,
 				CBCDE56E1C7D48A000DFD12A /* README.md in Sources */,
 				CBCDE5721C7D49F600DFD12A /* ArticleData.swift in Sources */,

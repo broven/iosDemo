@@ -9,15 +9,14 @@
 import UIKit
 
 class MainTableViewController: UITableViewController {
-
+    var article : [Article] = []
 
     override func viewDidLoad() {
         super.viewDidLoad()
         //MARK:高度自适应
         tableView.estimatedRowHeight = tableView.rowHeight
         tableView.rowHeight = UITableViewAutomaticDimension
-        //MARK: 网络测试
-        ArticleData.getJson()
+
     }
 
 

@@ -11,8 +11,9 @@ import Alamofire
 import SwiftyJSON
 var id = 0
 class ArticleData  {
-        class func getJson(returnArticleNumber num :Int = 10, randomOrNot : Bool = true , word:String = "盗墓笔记" , page :Int =  1) {
-        var rand : Int
+        class func getJson(returnArticleNumber num :Int = 10, randomOrNot : Bool = true , word:String = "盗墓笔记" , page :Int =  1) -> [Article]{
+            var returnValue : [Article] = []
+            var rand : Int
         if randomOrNot == false{
             rand = 0
         }else{
@@ -29,13 +30,14 @@ class ArticleData  {
                 if let value = response.result.value
                 {
                     let json = JSON(value)
-                     parseJSONToStruct(json,num: num)
+                     returnValue =  parseJSONToStruct(json, num: num)
                 }
             case .Failure(let error):
                 print(error)
+                
             }
                                     }
-
+            return returnValue
 }
     private class func parseJSONToStruct(json : JSON , num : Int) -> [Article]{
         var ArticleList : [Article] = []

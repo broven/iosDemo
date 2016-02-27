@@ -15,9 +15,11 @@ class MainTableViewCell: UITableViewCell {
         // Initialization code
     }
 
-    @IBOutlet weak var titlelabel: UIView!
+
+    @IBOutlet weak var titleLabel: UILabel!
     @IBOutlet weak var datelabel: UILabel!
-    @IBOutlet weak var dateLabel: UIView!
+    @IBOutlet weak var imageOfArticle: UIImageView!
+
     override func setSelected(selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
 

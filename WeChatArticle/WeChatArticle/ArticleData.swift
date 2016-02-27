@@ -22,7 +22,7 @@ class ArticleData  {
         
     let headers = ["apikey": "c1214eed82cd2926585cdad8d4c9dd47"]
     
-        Alamofire.request(.GET,"http://apis.baidu.com/txapi/weixin/wxhot?num=10&rand=1&word=%E7%9B%97%E5%A2%93%E7%AC%94%E8%AE%B0&page=1", headers : headers,parameters : ["num" : num,"rand" : rand , "word": word,"page" : page]).responseJSON() {
+        Alamofire.request(.GET,"http://apis.baidu.com/txapi/weixin/wxhot", headers : headers,parameters : ["num" : num,"rand" : rand , "word": word,"page" : page]).responseJSON() {
         response in
             switch response.result
             {
@@ -47,8 +47,8 @@ class ArticleData  {
             let picUrl = json["newslist"][index]["picUrl"].stringValue
             let url = json["newslist"][index]["url"].stringValue
             let art = Article(title: title, description: description, picUrl: picUrl, url: url)
+            print("title",title,"data",description)
             ArticleList.append(art)
-            
         
             //print("say:",type)
         }//loop

@@ -26,7 +26,7 @@
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="小米5今日发布，真机图再曝光！" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L6V-Z4-Meb">
                                             <rect key="frame" x="212" y="8" width="380" height="21"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2016-02-23" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8nq-jZ-bch">
@@ -38,7 +38,7 @@
                                                 <constraint firstAttribute="width" constant="76" id="vng-gz-xfl"/>
                                             </constraints>
                                             <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                             <variation key="default">
                                                 <mask key="constraints">
@@ -87,6 +87,8 @@
                                 </tableViewCellContentView>
                                 <connections>
                                     <outlet property="datelabel" destination="8nq-jZ-bch" id="Oil-8t-yvR"/>
+                                    <outlet property="imageOfArticle" destination="vDR-BU-IY1" id="MxA-ie-Mvu"/>
+                                    <outlet property="titleLabel" destination="L6V-Z4-Meb" id="TgI-6V-bsT"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>

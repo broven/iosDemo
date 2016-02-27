@@ -9,6 +9,7 @@
 import UIKit
 
 class MainTableViewController: UITableViewController {
+    
     var article : [Article] = []
 
     override func viewDidLoad() {
@@ -16,6 +17,8 @@ class MainTableViewController: UITableViewController {
         //MARK:高度自适应
         tableView.estimatedRowHeight = tableView.rowHeight
         tableView.rowHeight = UITableViewAutomaticDimension
+        //article = ArticleData.getJson()
+        
 
     }
 
@@ -29,12 +32,19 @@ class MainTableViewController: UITableViewController {
 
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return 0
-    }
+        //article = ArticleData.getJson()
+        print("ROWS:",article.count)
+        return article.count
+           }
 
    
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCellWithIdentifier("tableCell", forIndexPath: indexPath)
+        let cell = tableView.dequeueReusableCellWithIdentifier("tableCell", forIndexPath: indexPath) as!
+        MainTableViewCell
+        var data = article[indexPath.row]
+        cell.titleLabel.text = data.title
+        cell.datelabel.text = data.description
+        
         return cell
     }
  

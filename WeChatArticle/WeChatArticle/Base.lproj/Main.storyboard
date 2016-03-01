@@ -104,6 +104,48 @@
             </objects>
             <point key="canvasLocation" x="1167" y="306"/>
         </scene>
+        <!--Text View Controller-->
+        <scene sceneID="Y8x-6j-qBm">
+            <objects>
+                <viewController id="aby-UC-DC9" customClass="textViewController" customModule="WeChatArticle" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="tfC-L5-bif"/>
+                        <viewControllerLayoutGuide type="bottom" id="LVL-oB-Sjz"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8V3-1V-Grm">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="..." textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="71R-Jh-bTl">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="10" y="20" width="380" height="560"/>
+                                </variation>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aGe-Rz-rH6">
+                                <rect key="frame" x="347" y="312" width="46" height="30"/>
+                                <state key="normal" title="get"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="185" y="285" width="30" height="30"/>
+                                </variation>
+                                <connections>
+                                    <action selector="showJson:" destination="aby-UC-DC9" eventType="touchUpInside" id="b71-2H-1xo"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="textiew" destination="71R-Jh-bTl" id="C3I-Gh-csN"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nsL-od-rH4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1842" y="313"/>
+        </scene>
         <!--Navigation Controller-->
         <scene sceneID="RBn-K9-JwJ">
             <objects>

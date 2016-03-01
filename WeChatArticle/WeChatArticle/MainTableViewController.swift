@@ -15,9 +15,10 @@ class MainTableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         //MARK:高度自适应
-        tableView.estimatedRowHeight = tableView.rowHeight
-        tableView.rowHeight = UITableViewAutomaticDimension
-        //article = ArticleData.getJson()
+//        tableView.estimatedRowHeight = tableView.rowHeight
+//        tableView.rowHeight = UITableViewAutomaticDimension
+
+
         
 
     }
@@ -32,8 +33,7 @@ class MainTableViewController: UITableViewController {
 
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        //article = ArticleData.getJson()
-        print("ROWS:",article.count)
+        
         return article.count
            }
 
@@ -41,7 +41,8 @@ class MainTableViewController: UITableViewController {
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCellWithIdentifier("tableCell", forIndexPath: indexPath) as!
         MainTableViewCell
-        var data = article[indexPath.row]
+        self.tableView.reloadData()
+        let data = article[indexPath.row]
         cell.titleLabel.text = data.title
         cell.datelabel.text = data.description
         

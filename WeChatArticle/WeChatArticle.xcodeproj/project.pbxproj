@@ -20,6 +20,7 @@
 		CBCDE56E1C7D48A000DFD12A /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = CBCDE56D1C7D48A000DFD12A /* README.md */; };
 		CBCDE5701C7D493600DFD12A /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = CBCDE56F1C7D493600DFD12A /* Podfile */; };
 		CBCDE5721C7D49F600DFD12A /* ArticleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBCDE5711C7D49F600DFD12A /* ArticleData.swift */; };
+		CBFE16C81C8510E30085BF74 /* textViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBFE16C71C8510E30085BF74 /* textViewController.swift */; };
 		DCD211293C1763A61B604214 /* Pods_WeChatArticle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4948F97499E0D65EE274142A /* Pods_WeChatArticle.framework */; };
 /* End PBXBuildFile section */
 
@@ -45,14 +46,14 @@
 		4948F97499E0D65EE274142A /* Pods_WeChatArticle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WeChatArticle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5995DEA5B20706EDEA1B6370 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		CB04A10E1C7DEC150014244F /* Article.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
-		CB66BD8F1C7D90720094EA4B /* MainTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
-		CB66BD911C7D989C0094EA4B /* MainTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTableViewCell.swift; sourceTree = "<group>"; };
+		CB66BD8F1C7D90720094EA4B /* MainTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainTableViewController.swift; path = WeChatArticle/MainTableViewController.swift; sourceTree = "<group>"; };
+		CB66BD911C7D989C0094EA4B /* MainTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainTableViewCell.swift; path = WeChatArticle/MainTableViewCell.swift; sourceTree = "<group>"; };
 		CBCDE53C1C7D488C00DFD12A /* WeChatArticle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeChatArticle.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		CBCDE53F1C7D488C00DFD12A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CBCDE53F1C7D488C00DFD12A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = WeChatArticle/AppDelegate.swift; sourceTree = "<group>"; };
 		CBCDE5441C7D488C00DFD12A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		CBCDE5461C7D488C00DFD12A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CBCDE5461C7D488C00DFD12A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = WeChatArticle/Assets.xcassets; sourceTree = "<group>"; };
 		CBCDE5491C7D488C00DFD12A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		CBCDE54B1C7D488C00DFD12A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBCDE54B1C7D488C00DFD12A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = WeChatArticle/Info.plist; sourceTree = "<group>"; };
 		CBCDE5501C7D488C00DFD12A /* WeChatArticleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeChatArticleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBCDE5541C7D488C00DFD12A /* WeChatArticleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeChatArticleTests.swift; sourceTree = "<group>"; };
 		CBCDE5561C7D488C00DFD12A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -62,6 +63,7 @@
 		CBCDE56D1C7D48A000DFD12A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		CBCDE56F1C7D493600DFD12A /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		CBCDE5711C7D49F600DFD12A /* ArticleData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleData.swift; sourceTree = "<group>"; };
+		CBFE16C71C8510E30085BF74 /* textViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = textViewController.swift; sourceTree = "<group>"; };
 		F02B0848DB81BBDC92994F1C /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -113,8 +115,10 @@
 		CBCDE5331C7D488C00DFD12A = {
 			isa = PBXGroup;
 			children = (
-				CBCDE56D1C7D48A000DFD12A /* README.md */,
 				CBCDE56F1C7D493600DFD12A /* Podfile */,
+				CBCDE56D1C7D48A000DFD12A /* README.md */,
+				CBFE16C51C8510630085BF74 /* tableView */,
+				CBFE16C41C8510590085BF74 /* text */,
 				CBCDE53E1C7D488C00DFD12A /* WeChatArticle */,
 				CBCDE5531C7D488C00DFD12A /* WeChatArticleTests */,
 				CBCDE55E1C7D488C00DFD12A /* WeChatArticleUITests */,
@@ -137,15 +141,9 @@
 		CBCDE53E1C7D488C00DFD12A /* WeChatArticle */ = {
 			isa = PBXGroup;
 			children = (
-				CBCDE53F1C7D488C00DFD12A /* AppDelegate.swift */,
 				CBCDE5431C7D488C00DFD12A /* Main.storyboard */,
-				CB66BD911C7D989C0094EA4B /* MainTableViewCell.swift */,
-				CB66BD8F1C7D90720094EA4B /* MainTableViewController.swift */,
 				CBCDE5711C7D49F600DFD12A /* ArticleData.swift */,
 				CB04A10E1C7DEC150014244F /* Article.swift */,
-				CBCDE5461C7D488C00DFD12A /* Assets.xcassets */,
-				CBCDE5481C7D488C00DFD12A /* LaunchScreen.storyboard */,
-				CBCDE54B1C7D488C00DFD12A /* Info.plist */,
 			);
 			path = WeChatArticle;
 			sourceTree = "<group>";
@@ -162,10 +160,40 @@
 		CBCDE55E1C7D488C00DFD12A /* WeChatArticleUITests */ = {
 			isa = PBXGroup;
 			children = (
+				CBFE16C61C8510820085BF74 /* supportingFile */,
 				CBCDE55F1C7D488C00DFD12A /* WeChatArticleUITests.swift */,
 				CBCDE5611C7D488C00DFD12A /* Info.plist */,
 			);
 			path = WeChatArticleUITests;
+			sourceTree = "<group>";
+		};
+		CBFE16C41C8510590085BF74 /* text */ = {
+			isa = PBXGroup;
+			children = (
+				CBFE16C71C8510E30085BF74 /* textViewController.swift */,
+			);
+			name = text;
+			sourceTree = "<group>";
+		};
+		CBFE16C51C8510630085BF74 /* tableView */ = {
+			isa = PBXGroup;
+			children = (
+				CB66BD8F1C7D90720094EA4B /* MainTableViewController.swift */,
+				CB66BD911C7D989C0094EA4B /* MainTableViewCell.swift */,
+			);
+			name = tableView;
+			sourceTree = "<group>";
+		};
+		CBFE16C61C8510820085BF74 /* supportingFile */ = {
+			isa = PBXGroup;
+			children = (
+				CBCDE54B1C7D488C00DFD12A /* Info.plist */,
+				CBCDE5481C7D488C00DFD12A /* LaunchScreen.storyboard */,
+				CBCDE5461C7D488C00DFD12A /* Assets.xcassets */,
+				CBCDE53F1C7D488C00DFD12A /* AppDelegate.swift */,
+			);
+			name = supportingFile;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -359,6 +387,7 @@
 				CBCDE56E1C7D48A000DFD12A /* README.md in Sources */,
 				CBCDE5721C7D49F600DFD12A /* ArticleData.swift in Sources */,
 				CBCDE5401C7D488C00DFD12A /* AppDelegate.swift in Sources */,
+				CBFE16C81C8510E30085BF74 /* textViewController.swift in Sources */,
 				CB66BD921C7D989C0094EA4B /* MainTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -409,6 +438,7 @@
 				CBCDE5491C7D488C00DFD12A /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = WeChatArticle;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

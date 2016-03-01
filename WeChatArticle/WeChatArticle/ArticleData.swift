@@ -12,7 +12,12 @@ import SwiftyJSON
 var id = 0
 class ArticleData  {
         class func getJson(returnArticleNumber num :Int = 10, randomOrNot : Bool = true , word:String = "盗墓笔记" , page :Int =  1) -> [Article]{
-            var returnValue : [Article] = []
+            var returnValue : [Article] = []{
+                didSet{
+                    print("函数得到解析的json数据")
+                    print(returnValue[0].title)
+                }
+            }
             var rand : Int
         if randomOrNot == false{
             rand = 0
@@ -21,6 +26,8 @@ class ArticleData  {
         }
         
     let headers = ["apikey": "c1214eed82cd2926585cdad8d4c9dd47"]
+            
+
     
         Alamofire.request(.GET,"http://apis.baidu.com/txapi/weixin/wxhot", headers : headers,parameters : ["num" : num,"rand" : rand , "word": word,"page" : page]).responseJSON() {
         response in
@@ -30,13 +37,16 @@ class ArticleData  {
                 if let value = response.result.value
                 {
                     let json = JSON(value)
-                     returnValue =  parseJSONToStruct(json, num: num)
+                    print("获得json数据!")
+                     let a = parseJSONToStruct(json, num: num)
+                    returnValue += a
+                    
                 }
             case .Failure(let error):
                 print(error)
                 
-            }
-                                    }
+            }//switch
+                                    }//request
             return returnValue
 }
     private class func parseJSONToStruct(json : JSON , num : Int) -> [Article]{
@@ -47,9 +57,9 @@ class ArticleData  {
             let picUrl = json["newslist"][index]["picUrl"].stringValue
             let url = json["newslist"][index]["url"].stringValue
             let art = Article(title: title, description: description, picUrl: picUrl, url: url)
-            print("title",title,"data",description)
+                                                            //print("title",title,"data",description)
             ArticleList.append(art)
-        
+            print("正在解析json数据.....",index)
             //print("say:",type)
         }//loop
         return ArticleList

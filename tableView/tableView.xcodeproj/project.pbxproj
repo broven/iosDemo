@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CB9EDCE51C85DD580031A3C9 /* sub.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB9EDCE41C85DD580031A3C9 /* sub.swift */; };
 		CBFE16D61C851F060085BF74 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBFE16D51C851F060085BF74 /* AppDelegate.swift */; };
 		CBFE16DB1C851F060085BF74 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBFE16D91C851F060085BF74 /* Main.storyboard */; };
 		CBFE16DD1C851F060085BF74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBFE16DC1C851F060085BF74 /* Assets.xcassets */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CB9EDCE41C85DD580031A3C9 /* sub.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = sub.swift; path = ../sub.swift; sourceTree = "<group>"; };
 		CBFE16D21C851F060085BF74 /* tableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBFE16D51C851F060085BF74 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CBFE16DA1C851F060085BF74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -102,6 +104,7 @@
 		CBFE16D41C851F060085BF74 /* tableView */ = {
 			isa = PBXGroup;
 			children = (
+				CB9EDCE41C85DD580031A3C9 /* sub.swift */,
 				CBFE17071C8587FE0085BF74 /* TableViewCell.swift */,
 				CBFE16D51C851F060085BF74 /* AppDelegate.swift */,
 				CBFE16D91C851F060085BF74 /* Main.storyboard */,
@@ -268,6 +271,7 @@
 				CBFE17041C851F3F0085BF74 /* README.md in Sources */,
 				CBFE17081C8587FE0085BF74 /* TableViewCell.swift in Sources */,
 				CBFE17061C851F9F0085BF74 /* TableViewController.swift in Sources */,
+				CB9EDCE51C85DD580031A3C9 /* sub.swift in Sources */,
 				CBFE16D61C851F060085BF74 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -495,6 +499,7 @@
 				CBFE16FC1C851F070085BF74 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CBFE16FD1C851F070085BF74 /* Build configuration list for PBXNativeTarget "tableViewTests" */ = {
 			isa = XCConfigurationList;
@@ -503,6 +508,7 @@
 				CBFE16FF1C851F070085BF74 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CBFE17001C851F070085BF74 /* Build configuration list for PBXNativeTarget "tableViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +517,7 @@
 				CBFE17021C851F070085BF74 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

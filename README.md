@@ -1,4 +1,10 @@
+#TODO:
+-	自定义下拉刷新
+-	collection
+-	animation
 
+###[Animation](./Animation)
+登录界面两个textField划入
 
 ###[DropGame](./DropGame)
 dynamicAnimator

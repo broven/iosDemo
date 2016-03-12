@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "CBE5D3F51C8BB81B00CD3289"
-               BuildableName = "collectionView.app"
-               BlueprintName = "collectionView"
-               ReferencedContainer = "container:collectionView.xcodeproj">
+               BlueprintIdentifier = "CBB9F1CF1C9401C9003ABF62"
+               BuildableName = "CollectionViewDemo.app"
+               BlueprintName = "CollectionViewDemo"
+               ReferencedContainer = "container:CollectionViewDemo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,30 +32,30 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "CBE5D4091C8BB81B00CD3289"
-               BuildableName = "collectionViewTests.xctest"
-               BlueprintName = "collectionViewTests"
-               ReferencedContainer = "container:collectionView.xcodeproj">
+               BlueprintIdentifier = "CBB9F1E31C9401C9003ABF62"
+               BuildableName = "CollectionViewDemoTests.xctest"
+               BlueprintName = "CollectionViewDemoTests"
+               ReferencedContainer = "container:CollectionViewDemo.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "CBE5D4141C8BB81B00CD3289"
-               BuildableName = "collectionViewUITests.xctest"
-               BlueprintName = "collectionViewUITests"
-               ReferencedContainer = "container:collectionView.xcodeproj">
+               BlueprintIdentifier = "CBB9F1EE1C9401C9003ABF62"
+               BuildableName = "CollectionViewDemoUITests.xctest"
+               BlueprintName = "CollectionViewDemoUITests"
+               ReferencedContainer = "container:CollectionViewDemo.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "CBE5D3F51C8BB81B00CD3289"
-            BuildableName = "collectionView.app"
-            BlueprintName = "collectionView"
-            ReferencedContainer = "container:collectionView.xcodeproj">
+            BlueprintIdentifier = "CBB9F1CF1C9401C9003ABF62"
+            BuildableName = "CollectionViewDemo.app"
+            BlueprintName = "CollectionViewDemo"
+            ReferencedContainer = "container:CollectionViewDemo.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -75,10 +75,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "CBE5D3F51C8BB81B00CD3289"
-            BuildableName = "collectionView.app"
-            BlueprintName = "collectionView"
-            ReferencedContainer = "container:collectionView.xcodeproj">
+            BlueprintIdentifier = "CBB9F1CF1C9401C9003ABF62"
+            BuildableName = "CollectionViewDemo.app"
+            BlueprintName = "CollectionViewDemo"
+            ReferencedContainer = "container:CollectionViewDemo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -94,10 +94,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "CBE5D3F51C8BB81B00CD3289"
-            BuildableName = "collectionView.app"
-            BlueprintName = "collectionView"
-            ReferencedContainer = "container:collectionView.xcodeproj">
+            BlueprintIdentifier = "CBB9F1CF1C9401C9003ABF62"
+            BuildableName = "CollectionViewDemo.app"
+            BlueprintName = "CollectionViewDemo"
+            ReferencedContainer = "container:CollectionViewDemo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

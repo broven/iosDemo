@@ -1,14 +1,14 @@
 //
-//  collectionViewUITests.swift
-//  collectionViewUITests
+//  CollectionViewDemoUITests.swift
+//  CollectionViewDemoUITests
 //
-//  Created by Broven on 16/3/6.
+//  Created by Broven on 16/3/12.
 //  Copyright © 2016年 Broven. All rights reserved.
 //
 
 import XCTest
 
-class collectionViewUITests: XCTestCase {
+class CollectionViewDemoUITests: XCTestCase {
         
     override func setUp() {
         super.setUp()

@@ -15,6 +15,7 @@
 		CB1DD9971C92B1AA0068289E /* AnimationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB1DD9961C92B1AA0068289E /* AnimationUITests.swift */; };
 		CB1DD9A71C92B8C40068289E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB1DD9A61C92B8C40068289E /* ViewController.swift */; };
 		CB1DD9A91C92C0A10068289E /* signViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB1DD9A81C92C0A10068289E /* signViewController.swift */; };
+		CB464E9B1C970A4C000A7851 /* CGAffineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB464E9A1C970A4C000A7851 /* CGAffineViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		CB1DD9981C92B1AA0068289E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CB1DD9A61C92B8C40068289E /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CB1DD9A81C92C0A10068289E /* signViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = signViewController.swift; sourceTree = "<group>"; };
+		CB464E9A1C970A4C000A7851 /* CGAffineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGAffineViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 			children = (
 				CB1DD9761C92B1AA0068289E /* AppDelegate.swift */,
 				CB1DD97A1C92B1AA0068289E /* Main.storyboard */,
+				CB464E9A1C970A4C000A7851 /* CGAffineViewController.swift */,
 				CB1DD9A81C92C0A10068289E /* signViewController.swift */,
 				CB1DD9A61C92B8C40068289E /* ViewController.swift */,
 				CB1DD97D1C92B1AA0068289E /* Assets.xcassets */,
@@ -263,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CB1DD9A91C92C0A10068289E /* signViewController.swift in Sources */,
+				CB464E9B1C970A4C000A7851 /* CGAffineViewController.swift in Sources */,
 				CB1DD9A71C92B8C40068289E /* ViewController.swift in Sources */,
 				CB1DD9771C92B1AA0068289E /* AppDelegate.swift in Sources */,
 			);
@@ -491,6 +495,7 @@
 				CB1DD99D1C92B1AA0068289E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CB1DD99E1C92B1AA0068289E /* Build configuration list for PBXNativeTarget "AnimationTests" */ = {
 			isa = XCConfigurationList;
@@ -499,6 +504,7 @@
 				CB1DD9A01C92B1AA0068289E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CB1DD9A11C92B1AA0068289E /* Build configuration list for PBXNativeTarget "AnimationUITests" */ = {
 			isa = XCConfigurationList;
@@ -507,6 +513,7 @@
 				CB1DD9A31C92B1AA0068289E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

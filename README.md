@@ -1,7 +1,4 @@
-#TODO:
--	自定义下拉刷新
--	collection
--	animation
+弃坑了,转javascript了
 
 ###[Animation](./Animation)
 登录界面两个textField划入
